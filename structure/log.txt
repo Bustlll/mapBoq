@@ -1,0 +1,11 @@
+2024-07-11 at 00:52
+
+- [ ] Cómo funcionan /Laravel, Leaflet y la api
+- [ ] Cómo funciona apache para laravel backend
+- [ ] Cómo funciona leaflet.js introduccion
+- [ ] Cómo funcionan las llamadas api overpass
+- [ ] Formar Idea Conjunto
+
+- [ ] Montar Backend 
+- [ ] Montar Front
+- [ ] Añadir API calls
