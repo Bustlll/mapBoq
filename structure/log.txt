@@ -24,4 +24,9 @@
 - paste in php + wampserver version and change curl.cainfo = "C:\php-8.3.9\cacert.pem" untick ;
 
 
+2024-07-11 at 07:31
+
+- Add 10 interest Points on / route. Hide them WHEN new route + query api 
+- Add search query into API wizzard to map
+- Add buttons filter Gasoline - Hotel - Supermercado - Restaurant copy maps
 
