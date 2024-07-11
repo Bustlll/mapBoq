@@ -29,7 +29,7 @@ class MapController extends Controller
             'pointsOfInterest' => $pointsOfInterest,  // Pass specific points of interest to the view
         ]);
     }
-
+    #inicio de los botones en pantalla + funcionalidad API Overpass
     public function fetchRestaurants(Request $request)
     {
         $query = '[out:json][timeout:25];
@@ -64,7 +64,7 @@ class MapController extends Controller
     }
 
 
-    #inicio de los botones en pantalla + funcionalidad API Overpass
+    
     public function fetchFuel(Request $request)
     {
         $query = '[out:json][timeout:25];
