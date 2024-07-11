@@ -15,8 +15,8 @@
             padding: 0;
         }
         #map {
-            height: 100vh; 
-            width: 100vw; 
+            height: 100vh; /* Map height to fill the viewport height */
+            width: 100vw; /* Map width to fill the viewport width */
         }
     </style>
 </head>
@@ -29,18 +29,31 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
+        // Initialize the map and set its view to Pico Sacro near Lestedo in Galicia with a zoom level of 12
+        var map = L.map('map').setView([42.7829, -8.4653], 12);
 
-        var map = L.map('map').setView([42.806438027393256, -8.447001118686217], 14);
-
-       
+        // Add a tile layer to our map, in this case it's an OpenStreetMap tile layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: 'Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        // Add a marker at Pico Sacro near Lestedo with a popup
-        var marker = L.marker([42.806438027393256, -8.447001118686217]).addTo(map)
-            .bindPopup('Pico Sacro')
-            .openPopup();
+        // Get the data from the server
+        var data = @json($data);
+
+        // Function to add Overpass data to the map
+        function addDataToMap(data) {
+            data.elements.forEach(element => {
+                if (element.type === 'node') {
+                    const lat = element.lat;
+                    const lon = element.lon;
+                    L.marker([lat, lon]).addTo(map).bindPopup(`Drinking water: Node ${element.id}`);
+                }
+            });
+        }
+
+        // Add data to the map
+        addDataToMap(data);
+
     </script>
 </body>
 </html>

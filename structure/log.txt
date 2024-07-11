@@ -17,4 +17,11 @@
 - add apache server instead of mysql
 
 
+2024-07-11 at 06:49
+
+- php controller to the endpoint working to display in / rout, need cert install in php curl ssl cert problem 
+- caer source: https://curl.se/docs/caextract.html
+- paste in php version and change curl.cainfo = "C:\php-8.3.9\cacert.pem" untick ;
+
+
 
