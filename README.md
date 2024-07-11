@@ -1,6 +1,6 @@
 ![image](https://github.com/Bustlll/mapBoq/assets/57551687/478d396e-b054-43c3-9f4d-70d1ed1816d6)
 
-Run on localhost requirements:
+# Localhost Requirements
 
 -cacert-2024-07-02 from https://curl.se/docs/caextract.html
 
@@ -17,4 +17,9 @@ Run on localhost requirements:
 # Clone the repo
 $git clone https://github.com/Bustlll/mapBoq.git
 
-run "php artisan serve" from inside \testBlowUp\tbu01
+$ cd testBlowUp
+$ cd tbu01
+$ composer install
+$ php artisan serve
+Open https://localhost:8000 with browser.
+
