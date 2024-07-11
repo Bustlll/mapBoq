@@ -9,3 +9,9 @@
 - [ ] Montar Backend 
 - [ ] Montar Front
 - [ ] Añadir API calls
+
+2024-07-11 at 04:06
+
+- laravel funcionando con wampserver
+- migrations re-check posibles fallos + phpmyadmin laravel table
+
