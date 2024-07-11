@@ -10,9 +10,11 @@ Run on localhost requirements:
 
 -composer from https://getcomposer.org/
 
-
 -edit the php.ini file from the wampserver: 
 
 ;curl.cainfo = "C:\php-8.3.9\cacert-2024-07-02.pem" and untick the ;
+
+# Clone the repo
+$git clone https://github.com/Bustlll/mapBoq.git
 
 run "php artisan serve" from inside \testBlowUp\tbu01
