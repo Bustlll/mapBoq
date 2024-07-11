@@ -16,12 +16,12 @@
 
 # Clone the repo
 
-$ git clone https://github.com/Bustlll/mapBoq.git
+1. $ git clone https://github.com/Bustlll/mapBoq.git
 
 
-$ cd testBlowUp
-$ cd tbu01
-$ composer install
-$ php artisan serve
+2. $ cd testBlowUp
+3. $ cd tbu01
+4. $ composer install
+5. $ php artisan serve
 Open https://localhost:8000 with browser.
 
