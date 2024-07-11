@@ -23,5 +23,5 @@
 3. $ cd tbu01
 4. $ composer install
 5. $ php artisan serve
-Open https://localhost:8000 with browser.
+6. Open https://localhost:8000 with browser.
 
