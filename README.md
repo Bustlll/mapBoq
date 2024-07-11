@@ -1,4 +1,5 @@
-![image](https://github.com/Bustlll/mapBoq/assets/57551687/478d396e-b054-43c3-9f4d-70d1ed1816d6)
+![image](https://github.com/Bustlll/mapBoq/assets/57551687/c9e0bc7c-d923-4c8f-8003-8416f1e86951)
+
 
 # Localhost Requirements
 
