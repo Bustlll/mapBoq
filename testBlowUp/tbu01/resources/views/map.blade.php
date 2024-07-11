@@ -184,7 +184,7 @@
                 'supermercado': 'shop=supermarket',
                 'tienda': 'shop=*',
                 'hospital': 'amenity=hospital',
-                'banio': 'amenity=toilets',
+                'baño': 'amenity=toilets',
                 'zona_de_ocio': 'leisure=*',
                 'sede': 'office=*',
             };
