@@ -15,7 +15,9 @@
 ;curl.cainfo = "C:\php-8.3.9\cacert-2024-07-02.pem" and untick the ;
 
 # Clone the repo
-$git clone https://github.com/Bustlll/mapBoq.git
+
+$ git clone https://github.com/Bustlll/mapBoq.git
+
 
 $ cd testBlowUp
 $ cd tbu01
