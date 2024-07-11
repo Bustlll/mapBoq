@@ -12,3 +12,5 @@ Run on localhost requirements:
 -edit the php.ini file from the wampserver: 
 
 ;curl.cainfo = "C:\php-8.3.9\cacert-2024-07-02.pem" and untick the ;
+
+run "php artisan serve" from inside \testBlowUp\tbu01
