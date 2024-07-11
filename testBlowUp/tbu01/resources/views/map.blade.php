@@ -202,13 +202,14 @@
             return [type, value];
         }
 
+        //buscar coordenadas de nuevos querys input
         function fetchDynamicData(type, value) {
             let dynamicQuery = `
                 [out:json][timeout:25];
                 node["${type}"="${value}"](42.661736441708754,-8.54290008544922,42.898603647672864,-8.180694580078127);
                 out geom;
             `;
-
+            //fetch the data into the API
             fetch(apiUrl, {
                 method: 'POST',
                 headers: {
