@@ -1,0 +1,6 @@
+
+what is a controller / reroute to private how to use
+
+storagre logs laravel logs to see output
+
+https://www.php.net/manual/en/language.functions.php php functions syntax

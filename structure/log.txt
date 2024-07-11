@@ -14,4 +14,7 @@
 
 - laravel funcionando con wampserver
 - migrations re-check posibles fallos + phpmyadmin laravel table
+- add apache server instead of mysql
+
+
 

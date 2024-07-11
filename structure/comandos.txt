@@ -1,0 +1,19 @@
+- - - ## LV ## - - - 
+
+Turorial Laravel: https://www.youtube.com/watch?v=2qgS_MCvDfk
+X2: https://www.youtube.com/watch?v=VAG_suGmVsk
+
+php artisan serve
+php artisan migrate 
+
+composer global require laravel/installer
+laravel new myapp
+
+-
+añadir $PATH PHP
+añadir .env file copiar de .env.example
+SESSION_DRIVER=database cambiar a SESSION_DRIVER=file
+DB_CONNECTION=mysql seleccionar db type
+-
+
+- - - ## LV ## - - - 
