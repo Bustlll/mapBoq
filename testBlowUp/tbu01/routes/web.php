@@ -7,5 +7,9 @@ Route::get('/', function () {
 });
 
 use App\Http\Controllers\MapController;
-
 Route::get('/', [MapController::class, 'index']);
+
+
+
+
+

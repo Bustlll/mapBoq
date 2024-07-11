@@ -30,3 +30,9 @@
 - Add search query into API wizzard to map
 - Add buttons filter Gasoline - Hotel - Supermercado - Restaurant copy maps
 
+2024-07-11 at 09:31
+
+- Se cambia una funcion random para 10 puntos interes por 10 puntos estáticos
+- Se añaden botones con llamadas fetch desde javascript
+- Implementado de traductor y buscador para la API 
+
